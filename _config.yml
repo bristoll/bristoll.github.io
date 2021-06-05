@@ -11,6 +11,8 @@ show_excerpts: false # set to true to show excerpts on the homepage
 #Personal page settings.
 # Permalinks
 permalink: /:title/
+paginate: 10  # amount of posts to show per page
+paginate_path: /page:num/
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
@@ -58,5 +60,7 @@ minima:
 theme: minima
 
 plugins:
- - jekyll-feed
- - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap

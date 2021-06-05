@@ -24,8 +24,18 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+
         </div>
+
       </nav>
     {%- endif -%}
+    {% comment %}
+    </br>
+    {% if page.lang == 'es' %}
+      <a class="page-link" href="../en">{{ site.data.languages.en.translate | escape }}</a>
+    {% elsif page.lang != 'es' %}
+      <a class="page-link" href="../es">{{  site.data.languages.es.translate | escape }}</a>
+    {% endif %}
+    {% endcomment %}
   </div>
 </header>

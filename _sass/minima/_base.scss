@@ -272,7 +272,22 @@ table {
   td {
     border: 1px solid $table-border-color;
   }
-
+  div.lang-options {
+    border-top: 1px solid #eee;
+    margin-top: 2em;
+    padding-top: 1em;
+  }
+  
+  div.lang-options ul {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  div.lang-options ul > li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 1em;
+  }
   @include media-query($on-laptop) {
     display: block;
     overflow-x: auto;
