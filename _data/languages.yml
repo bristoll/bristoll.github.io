@@ -1,8 +1,8 @@
 en:
   label: English
   translate: English Version
-  icon: 🇺🇸
+  icon: US
 es:
   label: Español
   translate: Versión en español
-  icon: es.ico
+  icon: ES
