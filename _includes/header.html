@@ -38,4 +38,20 @@
     {% endif %}
     {% endcomment %}
   </div>
+  {% if page.layout == 'index' %}
+  {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% if posts.size == 0 %}
+      {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+  {% endif %}
+  {% if posts.size > 1 %}
+  <div class="lang-options index">
+    
+      <ul>
+      {% for post in posts %}
+      <li><a title="{{ site.data.translations['viewIn'][post.lang] }} {{ site.data.languages[post.lang].label }}" class="{{post.lang}}" href="{{ site.base-url }}{{ post.url }}">{{ site.data.languages[post.lang].translate }}</a></li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+  {% endif %}
 </header>
