@@ -35,9 +35,14 @@
   {% if page.layout == 'index' %}
     <div class="lang-options index">  
       <ul>
+        {% if page.lang == 'es' %}
         <li><a title="{{ site.data.translations.viewIn.en }} {{ site.data.languages.en.label }}" class="en" href="{{ site.base-url }}/en">{{ site.data.languages.en.translate }}</a></li>
+        {% endif %}
+        {% if page.lang == 'en' %}
         <li><a title="{{ site.data.translations.viewIn.es] }} {{ site.data.languages.es.label }}" class="es" href="{{ site.base-url }}/es">{{ site.data.languages.es.translate }}</a></li>
+        {% endif %}
       </ul>
+      
     </div>
   {% endif %}
 </header>
