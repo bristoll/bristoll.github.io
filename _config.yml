@@ -1,4 +1,4 @@
-title: Bristoll Blog
+title: Bristoll Coding Blog
 author:
   name: bristoll
   email: bristollcoding@gmail.com
@@ -21,8 +21,8 @@ minima:
   # generate social links in footer
   social_links:
     twitter: BristollCoding
-    github:  bristoll
-    devto: bristoll
+    github:  bristollcoding
+    devto: bristollcoding
     # dribbble: jekyll
     # facebook: jekyll
     # flickr:   jekyll
