@@ -4,7 +4,7 @@ author:
   email: bristollcoding@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   In this blog you will find my personal ideas about software development
-  as well as tips, how to tutorials, tips and tricks I find usefulin my 
+  as well as tips, how to tutorials, tips and tricks I find useful in my 
   work as full time java developer
 show_excerpts: false # set to true to show excerpts on the homepage
 #Personal page settings.
