@@ -5,6 +5,8 @@ lang: es
 lang-ref: about
 permalink: es/about
 ---
+
+[avatar](/public/img/bristollcoding-avatar-happy.png)
 ## Acerca de mí
 Soy ingeniero de software a tiempo completo en España.
 
