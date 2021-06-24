@@ -5,7 +5,7 @@ lang: en
 lang-ref: about
 permalink: en/about
 ---
-![avatar](/public/img/bristollcoding-avatar-happy.png)
+![avatar](/public/img/bristollcoding-avatar-happy.png){:class="img-center"}
 
 ## About me
 I'm a full time software engineer from Spain. 
